@@ -1,0 +1,58 @@
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="model_header">
+      <h3>NEED AN EFFECTIVE PRESENTATION?</h3>
+          </div>
+            <div class="form">
+                <h4 class="text-center" id="successMsg" style="display:none">Thank you for your submission. We will get in touch shortly.</h4>
+                <form id="services-form" class="form-horizontal">
+                    <div class="form-group row">
+                        <label for="name" class="col-sm-4 form-control-label pull-left">Name</label>
+                        <div class="col-sm-8">
+                            <input class="form-control name-input" type="text" name="name" id="Name" placeholder="Steve Jobs">
+
+                        <img src="images/model_name.png" id="input_img">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-sm-4 form-control-label pull-left">Email Address</label>
+                        <div class="col-sm-8">
+                            <input class="form-control email-input" type="email" name="email" id="Email" placeholder="Stevejobs@apple.com">
+                            <img src="images/modal_mail.png" id="input_img">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="msg" class="col-sm-4 form-control-label pull-left">Message</label>
+                        <div class="col-sm-8">
+                            <textarea name="msg" class="form-control mesage-input" rows="8" cols="40" id="Msg" placeholder="Do you have any special instructions?"></textarea>
+                        <img src="images/modal_message.png" id="input_modalmessage">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="pitch-type" class="col-sm-4 form-control-label pull-left">I need a presentation for</label>
+                        <div class="col-sm-8">
+                            <select class="pitch-select" name="pitch-type" id="pitchType">
+                                <!-- <option value="funding-pitch">Funding Pitch</option> -->
+                                <option value="Product-Pitch">Product Pitch</option>
+                                <option value="company-Pitch">Company Pitch</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="pitch-type" class="col-sm-4 form-control-label pull-left">Reference file <br/><span>(Optional)</span></label>
+                        <div class="col-sm-8 upload">
+                            <label for="upload-ppt">Upload File</label>
+                            <input id="upload-ppt" type="file" name="upload-ppt">
+                            <span id=fileName></span>
+                            <h6>Upload your presentation (PPTX or PPT preferred)</h6>
+                        </div>
+                    </div>
+                    <div class="row submit">
+                        <button type="button" class="btn" name="button" onclick="contactForm()">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
