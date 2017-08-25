@@ -1,0 +1,248 @@
+@font-face {
+    font-family: raleway;
+    src: url(fonts/raleway.regular.html);
+}
+@font-face {
+    font-family: open-sans.regular;
+    src: url(fonts/open-sans.regular.html);
+}
+@font-face {
+    font-family: open-sans.light;
+    src: url(fonts/open-sans.light.html);
+}
+body {
+	position:relative;
+	margin:0;
+}
+
+@media screen and (max-width:1024px) and (min-width:767px){
+  .accordion_logo{
+    text-align:center;
+  }
+  .accordion .content {
+
+  margin: 64px auto 30px;
+  }
+  .accordion_logo_img{
+    margin-top: 60px;
+  }
+  .accordion .BG-copy-4 .image,.accordion .accordion-Menu{
+  left: 0px;
+  }
+  .cb_bg{
+display: block;
+    margin-top: 17%;
+      margin-bottom: 10%;
+    }
+  .cb_bg1{
+display: none;
+
+  }
+}
+@media screen and (min-width:320px) and (max-width:767px){
+  .accordion_logo{
+    text-align:center;
+  }
+  .accordion .BG-copy-4 .image,.accordion .accordion-Menu{
+  left:0px;
+  }
+  .accordion_logo_img{
+    margin-top: 70px;
+  }
+  .accordion .content {
+    text-align: center;
+}
+.cb_bg{
+  display: none;
+
+}
+.cb_bg1{
+  display: block;
+  margin: auto;
+  margin-bottom:30px;
+
+}
+.accordion .content {
+
+margin: 57px auto 30px;
+}
+
+
+}
+@media only screen and (max-width:320px) {
+  .cb_bg{
+display: none;
+
+  }
+
+}
+@media only screen and (min-width:1025px) {
+  .accordion #accordion-1 .video,.accordion #accordion-2 .video {
+    height:540px;
+  }
+  .accordion #accordion-1 .the_solution, .accordion #accordion-2 .the_solution {
+  	margin:192px 0 9px;
+  }
+  .accordion_logo{
+    text-align: right;
+  }
+  .accordion_logo_img{
+    margin-top: 90px;
+  }
+  .accordion .BG-copy-4 .image,.accordion .accordion-Menu{
+  left:0px;
+  }
+  .accordion .content {
+text-align: left;
+  margin: 64px auto 30px;
+  }
+
+  .cb_bg{
+display: block;
+
+    }
+  .cb_bg1{
+display: none;
+
+  }
+}
+@media only screen and (min-width : 500px) and (max-width : 1024px) {
+  .accordion #accordion-1 .video,.accordion #accordion-2 .video {
+    height:540px;
+  }
+  .accordion #accordion-1 .the_solution, .accordion #accordion-2 .the_solution {
+  	margin:192px 0 9px;
+  }
+
+}
+@media only screen and (max-width: 549px) {
+  .accordion #accordion-1 .video,.accordion #accordion-2 .video {
+    height:540px;
+  }
+  .accordion #accordion-1 .the_solution, .accordion #accordion-2 .the_solution {
+  	margin:25px 0 9px;
+  }
+  .accordion_logo_img{
+    margin-top: 90px;
+  }
+}
+.accordion {
+	height:auto;
+	width:100%;
+}
+.accordion .accordion-Menu {
+  display:inline-block;
+top:0;
+bottom:0;
+right:0;
+width:50px;
+margin:auto;
+position:absolute;
+height:40px;
+}
+.accordion .accordion-section a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+.accordion .BG-copy-4 {
+  width: 100%;
+  height: auto;
+	overflow:hidden;
+  background-color: #252626;
+}
+.accordion .BG-copy-4 .image {
+	top:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+	position:absolute;
+	height:40px;
+  display:inline-block;
+}
+ .accordion .content{
+	max-width: 682px;
+ font-family: Raleway;
+ font-size: 24px;
+ font-weight: 300;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.5;
+
+ color: #efefef;
+ padding:0 15px;
+}
+
+.accordion .accordion-content {
+	display:none;
+}
+
+.accordion #accordion-1 {
+	background-color:#4b4c4c;
+	padding:67px 0 100px;
+}
+
+.accordion #accordion-2 {
+	background-color:#f0f0f0;
+	padding:67px 0 100px;
+}
+
+.accordion #accordion-1 .shape1, .accordion #accordion-2 .shape1{
+	width: 80px;
+  height: 2px;
+  background-color: #ff8173;
+}
+.accordion #accordion-1 .shape2, .accordion #accordion-2 .shape2{
+	width: 40px;
+  height: 2px;
+  background-color: #ff8173;
+}
+.accordion #accordion-1 .margin_top, .accordion #accordion-2 .margin_top{
+	margin-top:53px;
+}
+.accordion #accordion-1 h2,.accordion #accordion-2 h2{
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  text-align: left;
+  color: #efefef;
+	margin:0;
+}
+
+.accordion #accordion-2 h2{
+  color: #252626;
+}
+
+.accordion #accordion-1 .the_challenge, .accordion #accordion-2 .the_challenge {
+	margin:9px 0 0;
+}
+
+.accordion #accordion-1 p,.accordion #accordion-2 p {
+font-family: open-sans.light;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.5;
+text-align: left;
+color: #efefef;
+margin:25px 0 8px;
+}
+.accordion #accordion-2 p {
+color: #4b4c4c;
+}
+.accordion #accordion-1 .we_were_excited, .accordion #accordion-2 .we_were_excited {
+	margin:35px 0px 40px 15px;
+  font-size: 24px;
+}
+.accordion #accordion-1 .video,.accordion #accordion-2 .video {
+  max-width:720px;
+  width:100%;
+  margin:auto;
+  display:block;
+  position: relative;
+  border:2px solid #dee1e5;
+  border-radius:3px;
+}
